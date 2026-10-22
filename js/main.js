@@ -21,11 +21,18 @@
       'nav.projects': 'پروژه‌ها',
       'nav.faq': 'سوالات متداول',
       'nav.contact': 'تماس',
+      'nav.print': 'چاپ (PDF)',
       'hero.status': 'آماده همکاری در پروژه‌های نرم‌افزاری',
       'hero.greeting': 'سلام، من علیرضا کریمیان هستم',
       'hero.bio': 'توسعه‌دهنده فول‌استک با ۵ سال سابقه مهندسی نرم‌افزار، شامل ۴ سال تجربه موفق در جایگاه مدیر پروژه در پروژه‌های دولتی و صنعتی. دارای مدرک کارشناسی ارشد مهندسی نرم‌افزار از دانشگاه تبریز با معدل ۱۷.۲۷ از ۲۰.',
       'hero.ctaProjects': 'مشاهده پروژه‌ها',
       'hero.ctaContact': 'تماس با من',
+      'hero.ctaPrint': 'چاپ رزومه (PDF)',
+      'print.title': 'توسعه‌دهنده ارشد فول‌استک (Angular و C# .NET Core) و مدیر پروژه نرم‌افزار',
+      'print.emailLabel': 'ایمیل:',
+      'print.githubLabel': 'گیت‌هاب:',
+      'print.linkedinLabel': 'لینکدین:',
+      'print.eduLabel': 'تحصیلات:',
       'about.badge': 'شناخت بیشتر',
       'about.title': 'درباره من',
       'about.subtitle': 'ترکیب مهندسی نرم‌افزار پیشرفته و رهبری چابک پروژه‌های بزرگ سازمانی',
@@ -106,11 +113,18 @@
       'nav.projects': 'Projects',
       'nav.faq': 'FAQ',
       'nav.contact': 'Contact',
+      'nav.print': 'Print (PDF)',
       'hero.status': 'Available for Enterprise Projects',
       'hero.greeting': "Hello, I'm Alireza Karimiyan",
       'hero.bio': 'Full-stack developer with 5 years of software engineering experience, including 4 years as a Project Manager leading enterprise software projects in government and industrial sectors. M.Sc. in Software Engineering from the University of Tabriz (GPA 17.27/20).',
       'hero.ctaProjects': 'View Projects',
       'hero.ctaContact': 'Contact Me',
+      'hero.ctaPrint': 'Print Resume (PDF)',
+      'print.title': 'Senior Full-Stack Developer (Angular & C# .NET Core) & Project Manager',
+      'print.emailLabel': 'Email:',
+      'print.githubLabel': 'GitHub:',
+      'print.linkedinLabel': 'LinkedIn:',
+      'print.eduLabel': 'Education:',
       'about.badge': 'Background',
       'about.title': 'About Me',
       'about.subtitle': 'Combining enterprise software engineering with agile project leadership',
@@ -451,7 +465,24 @@
   });
 
   /* ─────────────────────────────────────────────────────────────────────────
-     9. INITIALIZATION
+     9. PRINT / PDF EXPORT
+     ───────────────────────────────────────────────────────────────────────── */
+  function triggerPdfPrint() {
+    window.print();
+  }
+
+  const printResumeBtn = document.getElementById('printResumeBtn');
+  if (printResumeBtn) {
+    printResumeBtn.addEventListener('click', triggerPdfPrint);
+  }
+
+  const navPrintBtn = document.getElementById('navPrintBtn');
+  if (navPrintBtn) {
+    navPrintBtn.addEventListener('click', triggerPdfPrint);
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     10. INITIALIZATION
      ───────────────────────────────────────────────────────────────────────── */
   setTheme(getInitialTheme());
   setLanguage(currentLang);

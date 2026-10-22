@@ -194,6 +194,12 @@
           <li><a href="#projects" class="nav-link" data-i18n="nav.projects">پروژه‌ها</a></li>
           <li><a href="#faq" class="nav-link" data-i18n="nav.faq">سوالات متداول</a></li>
           <li><a href="#contact" class="nav-link" data-i18n="nav.contact">تماس</a></li>
+          <li>
+            <button type="button" class="nav-link nav-print-btn" id="navPrintBtn" aria-label="چاپ رزومه (PDF)">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+              <span data-i18n="nav.print">چاپ (PDF)</span>
+            </button>
+          </li>
         </ul>
       </nav>
 
@@ -222,6 +228,27 @@
   </header>
 
   <main>
+    <!-- ═════════════════════════════════════════════════════════════════════
+         PRINT-ONLY RESUME HEADER (Only visible during window.print() / PDF export)
+         ═════════════════════════════════════════════════════════════════════ -->
+    <header class="print-resume-header" aria-hidden="true">
+      <div class="print-header-top">
+        <div class="print-header-text">
+          <h1 class="print-name" data-i18n="name">علیرضا کریمیان</h1>
+          <p class="print-title" data-i18n="print.title">توسعه‌دهنده ارشد فول‌استک (Angular و C# .NET Core) و مدیر پروژه نرم‌افزار</p>
+          <div class="print-contact-row">
+            <span class="print-contact-item"><strong data-i18n="print.emailLabel">ایمیل:</strong> alirezakn2000@gmail.com</span>
+            <span class="print-contact-item"><strong data-i18n="print.githubLabel">گیت‌هاب:</strong> github.com/AlirezaKarimiyan</span>
+            <span class="print-contact-item"><strong data-i18n="print.linkedinLabel">لینکدین:</strong> linkedin.com/in/alireza-karimiyan</span>
+            <span class="print-contact-item"><strong data-i18n="print.eduLabel">تحصیلات:</strong> کارشناسی ارشد مهندسی نرم‌افزار، دانشگاه تبریز (معدل ۱۷.۲۷)</span>
+          </div>
+        </div>
+        <div class="print-photo-wrap">
+          <img src="assets/profile.jpg" alt="Alireza Karimiyan" class="print-photo-img" width="110" height="110">
+        </div>
+      </div>
+    </header>
+
     <!-- ═════════════════════════════════════════════════════════════════════
          2. HERO SECTION
          ═════════════════════════════════════════════════════════════════════ -->
@@ -254,6 +281,10 @@
               <span data-i18n="hero.ctaContact">تماس با من</span>
               <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
             </a>
+            <button type="button" class="btn btn-outline" id="printResumeBtn" aria-label="چاپ نسخه PDF رزومه">
+              <span data-i18n="hero.ctaPrint">چاپ رزومه (PDF)</span>
+              <svg viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+            </button>
 
             <!-- Social Links -->
             <div class="social-links">

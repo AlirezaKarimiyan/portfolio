@@ -11,6 +11,10 @@
 - Degree: M.Sc. in Software Engineering, University of Tabriz (GPA: 17.27 / 20)
 - Languages: Persian (Native), English (Professional)
 - Primary Tech Stack: Angular, TypeScript, C#, .NET Core, SQL Server, Clean Architecture
+- Telegram: https://t.me/silence_a_z (@silence_a_z)
+- GitHub: https://github.com/AlirezaKarimiyan
+- LinkedIn: https://www.linkedin.com/in/alireza-karimiyan/
+- Email: alirezakn2000@gmail.com
 
 ## Core Technical Competencies
 - Backend Development: C#, .NET Core, ASP.NET Core Web API, Microservices, Clean Architecture, Repository Pattern, CQRS, RESTful Services, Python.
@@ -59,7 +63,8 @@
   - Research Focus: Distributed systems, software performance evaluation, and modern scalable software architectures.
 
 ## Canonical Profiles & Contact Links
-- Canonical Website: https://alirezakarimiyan.github.io/portfolio/ <!-- REPLACE WITH REAL DOMAIN -->
+- Canonical Website: https://alirezakarimiyan.github.io/portfolio/
+- Telegram: https://t.me/silence_a_z (@silence_a_z)
 - GitHub: https://github.com/AlirezaKarimiyan
 - LinkedIn: https://www.linkedin.com/in/alireza-karimiyan/
-- Email: alirezakn2000@gmail.com <!-- REPLACE: Contact email -->
+- Email: alirezakn2000@gmail.com

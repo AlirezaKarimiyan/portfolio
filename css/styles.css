@@ -1909,14 +1909,17 @@ img {
   .hero-cta,
   .social-links,
   .contact-actions,
-  .footer-social,
+  .footer,
+  footer,
+  .footer-links,
   .hero::before,
   .contact-card::before,
   button,
   .typewriter-cursor,
   .project-thumb,
   #hero,
-  #faq {
+  #faq,
+  #contact {
     display: none !important;
   }
 
@@ -2091,6 +2094,11 @@ img {
   }
 
   /* Experience section */
+  #experience {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
   .timeline::before {
     background: #94a3b8 !important;
     width: 2px !important;
@@ -2235,32 +2243,4 @@ img {
     padding: 1px 4px !important;
   }
 
-  /* Contact section */
-  .contact-card {
-    border: 1px solid #cbd5e1 !important;
-    border-radius: 6px !important;
-    padding: 10px 12px !important;
-    background: #f8fafc !important;
-    text-align: center !important;
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
-
-  .contact-title {
-    font-size: 11pt !important;
-    margin-bottom: 4px !important;
-  }
-
-  .contact-desc {
-    font-size: 8.5pt !important;
-    margin-bottom: 8px !important;
-  }
-
-  .footer {
-    border-top: 1px solid #e2e8f0 !important;
-    padding: 8px 0 !important;
-    font-size: 7.5pt !important;
-    color: #64748b !important;
-    text-align: center !important;
-  }
 }

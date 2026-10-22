@@ -1,0 +1,65 @@
+# Alireza Karimiyan — Full-Stack Developer & Project Manager
+
+> Professional portfolio, technical profile, and engineering biography of Alireza Karimiyan (علیرضا کریمیان), senior Full-Stack Software Developer and Enterprise Project Manager with 5+ years of software engineering experience and 4 years of technical leadership in high-impact national and industrial systems.
+
+## Identity & Professional Summary
+- Name: Alireza Karimiyan (علیرضا کریمیان)
+- Role: Full-Stack Developer & Project Manager
+- Specialization: Enterprise Web Applications, Scalable Backend Services, Agile Delivery
+- Total Software Engineering Experience: 5+ Years
+- Project Management Experience: 4 Years (Agile / Scrum)
+- Degree: M.Sc. in Software Engineering, University of Tabriz (GPA: 17.27 / 20)
+- Languages: Persian (Native), English (Professional)
+- Primary Tech Stack: Angular, TypeScript, C#, .NET Core, SQL Server, Clean Architecture
+
+## Core Technical Competencies
+- Backend Development: C#, .NET Core, ASP.NET Core Web API, Microservices, Clean Architecture, Repository Pattern, CQRS, RESTful Services, Python.
+- Frontend Engineering: Angular (v2+ through modern versions), TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3, SCSS, Bootstrap, Tailwind CSS, Responsive UI/UX.
+- Database & Reporting: Microsoft SQL Server, PostgreSQL, SQLite, T-SQL, Relational Schema Design, Query Optimization, Index Tuning, Stimulsoft Reports.
+- Tools & Methodology: Git, Scrum Master, Agile Methodologies, Sprint Planning, SDLC Lifecycle, Technical Risk Management, Jira/Git workflows.
+
+## Key Enterprise Projects
+1. Skills-Training Exam Platform (بخش آزمون پلتفرم مهارت‌آموزی فنی و حرفه‌ای)
+   - Role: Project Manager
+   - Details: Led the architectural design and full delivery of the high-concurrency online examination module for the National Technical and Vocational Skills-Training Platform.
+   - Technologies: Angular, .NET Core, SQL Server, Clean Architecture, Scrum.
+
+2. Moghan Agro-Industry Comprehensive Financial System (سامانه مالی کشت و صنعت و دامپروری مغان)
+   - Role: Project Manager
+   - Details: Managed end-to-end development of the integrated financial and accounting system for Moghan Agro-Industry & Livestock Co., one of the country's largest agro-industrial complexes.
+   - Technologies: .NET Core, Angular, SQL Server, Stimulsoft Reports, Financial Modules.
+
+3. Warehouse Management System — Oil Products Distribution Co. (سامانه انبارداری شرکت فرآورده‌های نفتی)
+   - Role: Full-Stack Developer
+   - Details: Engineered inventory tracking, material movement, automated stock auditing, and reporting modules for an oil products distribution enterprise.
+   - Technologies: C#, .NET Core, SQL Server, RESTful API, Stimulsoft Reports.
+
+4. Employment Administration System (سامانه اداره استخدامی)
+   - Role: Full-Stack Developer
+   - Details: Developed core modules, administrative workflows, and sensitive applicant screening pipelines for a governmental recruitment authority.
+   - Technologies: Angular, TypeScript, C# .NET, SQL Server.
+
+5. "Training 500 Young & Efficient Managers" Examination System (آزمون طرح تربیت ۵۰۰ مدیر جوان و کارآمد)
+   - Role: Project Manager
+   - Details: Managed the nationwide large-scale online examination process, high-concurrency test taking, score analysis, and competency assessment.
+   - Technologies: Project Management, Angular, .NET Core, SQL Server, High Concurrency.
+
+## Professional Experience
+- Project Manager (4 Years):
+  - Directed the software development lifecycle (SDLC) using Scrum across major government and industrial initiatives.
+  - Managed sprint execution, user story estimation, stakeholder alignment, risk analysis, and production deployments.
+- Full-Stack Developer (5+ Years):
+  - Designed and built scalable web applications and high-throughput RESTful APIs using C# .NET Core and Angular.
+  - Implemented relational database schemas and optimized complex SQL queries for data-heavy enterprise workflows.
+
+## Education & Academic Background
+- Master of Science (M.Sc.) in Software Engineering
+  - Institution: University of Tabriz (دانشگاه تبریز)
+  - Grade Point Average: 17.27 / 20
+  - Research Focus: Distributed systems, software performance evaluation, and modern scalable software architectures.
+
+## Canonical Profiles & Contact Links
+- Canonical Website: https://alirezakarimiyan.github.io/portfolio/ <!-- REPLACE WITH REAL DOMAIN -->
+- GitHub: https://github.com/AlirezaKarimiyan
+- LinkedIn: https://www.linkedin.com/in/alireza-karimiyan/
+- Email: alirezakn2000@gmail.com <!-- REPLACE: Contact email -->

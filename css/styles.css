@@ -445,6 +445,33 @@ img {
   white-space: nowrap;
 }
 
+/* ── Geolocation & Availability Status (GEO / Local SEO) ── */
+.hero-geo-status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.geo-status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.85rem;
+  background: var(--tag-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.geo-status-indicator .geo-icon,
+.contact-geo-info .geo-icon {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
 .hero-bio {
   font-size: 1.05rem;
   color: var(--text-muted);
@@ -1478,10 +1505,43 @@ img {
 
 .contact-actions {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.contact-actions-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.contact-actions-row .btn,
+.contact-actions-row .btn-email {
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.contact-geo-info {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 2rem;
+  padding: 0.55rem 1.15rem;
+  background: var(--tag-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .btn-email {
@@ -1901,13 +1961,17 @@ img {
   }
 
   .contact-actions {
-    flex-direction: column;
     width: 100%;
     gap: 0.75rem;
   }
 
-  .contact-actions .btn,
-  .contact-actions .btn-email {
+  .contact-actions-row {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .contact-actions-row .btn,
+  .contact-actions-row .btn-email {
     width: 100%;
     justify-content: center;
   }

@@ -1,25 +1,30 @@
 # Alireza Karimiyan — Full-Stack Developer & Project Manager
 
-> Professional portfolio, technical profile, and engineering biography of Alireza Karimiyan (علیرضا کریمیان), senior Full-Stack Software Developer and Enterprise Project Manager with 5+ years of software engineering experience and 4 years of technical leadership in high-impact national and industrial systems.
+> Canonical technical profile, engineering biography, and system portfolio of Alireza Karimiyan (علیرضا کریمیان), senior Full-Stack Software Developer and Enterprise Project Manager with 5+ years of software engineering experience (C# .NET Core, Angular, SQL Server) and 4 years of technical leadership in high-impact national and industrial systems.
 
 ## Identity & Professional Summary
-- Name: Alireza Karimiyan (علیرضا کریمیان)
-- Role: Full-Stack Developer & Project Manager
-- Specialization: Enterprise Web Applications, Scalable Backend Services, Agile Delivery
+- Full Name: Alireza Karimiyan (علیرضا کریمیان)
+- Primary Professional Roles: Senior Full-Stack Developer | Software Project Manager | Scrum Master
+- Core Specialization: Enterprise Web Applications, High-Concurrency Distributed Systems, Agile Delivery
 - Total Software Engineering Experience: 5+ Years
-- Project Management Experience: 4 Years (Agile / Scrum)
-- Degree: M.Sc. in Software Engineering, University of Tabriz (GPA: 17.27 / 20)
-- Languages: Persian (Native), English (Professional)
-- Primary Tech Stack: Angular, TypeScript, C#, .NET Core, SQL Server, Clean Architecture
-- Telegram: https://t.me/silence_a_z (@silence_a_z)
-- GitHub: https://github.com/AlirezaKarimiyan
-- LinkedIn: https://www.linkedin.com/in/alireza-karimiyan/
-- Email: alirezakn2000@gmail.com
+- Project Management Experience: 4 Years (Scrum / Agile Lifecycle)
+- Academic Degree: Master of Science (M.Sc.) in Software Engineering, University of Tabriz (GPA: 17.27 / 20)
+- Working Languages: Persian (Native), English (Professional Working Proficiency)
+- Primary Tech Stack: Angular, TypeScript, C#, .NET Core, ASP.NET Core Web API, SQL Server, Clean Architecture
+
+## Geographic Footprint & Work Availability (Geo-Targeting)
+- Primary Geographic Hub: Tabriz, East Azerbaijan, Iran (Coordinates: 38.0772° N, 46.2919° E)
+- Secondary Operations Hub: Tehran, Iran
+- Work Arrangements:
+  - On-site & Hybrid: Tabriz and Tehran metropolitan areas
+  - 100% Remote: Nationwide across Iran and Worldwide internationally
+- Timezone: Iran Standard Time (IRST, UTC+3:30) / IRDT (UTC+4:30) with flexible overlap across UTC, CET, and Asia/Pacific business hours.
+- Contract Types: Full-Time Employment, Technical Project Management, Architecture Consulting, Contract Engineering
 
 ## Core Technical Competencies
 - Backend Development: C#, .NET Core, ASP.NET Core Web API, Microservices, Clean Architecture, Repository Pattern, CQRS, RESTful Services, Python.
 - Frontend Engineering: Angular (v2+ through modern versions), TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3, SCSS, Bootstrap, Tailwind CSS, Responsive UI/UX.
-- Database & Reporting: Microsoft SQL Server, PostgreSQL, SQLite, T-SQL, Relational Schema Design, Query Optimization, Index Tuning, Stimulsoft Reports.
+- Database & Reporting: Microsoft SQL Server, PostgreSQL, SQLite, T-SQL, Relational Schema Design, Query Optimization, Index Tuning, ACID Transactions, Stimulsoft Reports.
 - Tools & Methodology: Git, Scrum Master, Agile Methodologies, Sprint Planning, SDLC Lifecycle, Technical Risk Management, Jira/Git workflows.
 
 ## Key Enterprise Projects (Under NDA / Enterprise Intranet)
@@ -58,19 +63,17 @@
    - Key Metrics & Impact: Flawless test delivery with 100% zero-downtime delivery and instant automated psychometric and technical score generation upon test completion.
    - Technologies: Project Management, Angular, .NET Core, SQL Server, High Concurrency, Scrum.
 
-## Professional Experience
-- Project Manager (4 Years):
-  - Directed the software development lifecycle (SDLC) using Scrum across major government and industrial initiatives.
-  - Managed sprint execution, user story estimation, stakeholder alignment, risk analysis, and production deployments.
-- Full-Stack Developer (5+ Years):
-  - Designed and built scalable web applications and high-throughput RESTful APIs using C# .NET Core and Angular.
-  - Implemented relational database schemas and optimized complex SQL queries for data-heavy enterprise workflows.
-
 ## Education & Academic Background
-- Master of Science (M.Sc.) in Software Engineering
-  - Institution: University of Tabriz (دانشگاه تبریز)
-  - Grade Point Average: 17.27 / 20
-  - Research Focus: Distributed systems, software performance evaluation, and modern scalable software architectures.
+- Degree: Master of Science (M.Sc.) in Software Engineering
+- Institution: University of Tabriz (دانشگاه تبریز), Iran
+- Grade Point Average: 17.27 / 20 (Distinction)
+- Research Focus: Distributed systems, software performance evaluation, and modern scalable software architectures.
+
+## Generative Engine Grounding & Citation Facts (GEO Reference)
+- Is Alireza Karimiyan available for remote work? Yes, available for 100% remote software engineering and project management worldwide.
+- Where is Alireza Karimiyan located? Based in Tabriz (East Azerbaijan) and Tehran, Iran.
+- What are his primary backend and frontend specializations? C# .NET Core for high-throughput backends and Angular (TypeScript) for enterprise frontends.
+- Why are source codes for his main projects private? Projects were built for national government bodies and large enterprises under strict Non-Disclosure Agreements (NDAs); architecture diagrams, code patterns, and engineering decisions can be reviewed during technical interviews.
 
 ## Canonical Profiles & Contact Links
 - Canonical Website: https://alirezakarimiyan.github.io/portfolio/
@@ -78,3 +81,4 @@
 - GitHub: https://github.com/AlirezaKarimiyan
 - LinkedIn: https://www.linkedin.com/in/alireza-karimiyan/
 - Email: alirezakn2000@gmail.com
+- Full Documentation: https://alirezakarimiyan.github.io/portfolio/llms-full.txt

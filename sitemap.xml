@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- REPLACE WITH REAL DOMAIN in all URLs below -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://alirezakarimiyan.github.io/portfolio/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fa" href="https://alirezakarimiyan.github.io/portfolio/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://alirezakarimiyan.github.io/portfolio/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alirezakarimiyan.github.io/portfolio/" />
+    <image:image>
+      <image:loc>https://alirezakarimiyan.github.io/portfolio/assets/profile.jpg?v=20261023</image:loc>
+      <image:title>Alireza Karimiyan - Senior Full-Stack Developer &amp; Project Manager</image:title>
+      <image:caption>علیرضا کریمیان - توسعه‌دهنده ارشد فول‌استک و مدیر پروژه نرم‌افزار</image:caption>
+    </image:image>
   </url>
 </urlset>

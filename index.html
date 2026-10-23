@@ -12,6 +12,12 @@
   <meta name="author" content="Alireza Karimiyan">
   <meta name="robots" content="index, follow">
 
+  <!-- Geolocation & Geo-Targeting Meta Tags -->
+  <meta name="geo.region" content="IR-01">
+  <meta name="geo.placename" content="Tabriz, Iran">
+  <meta name="geo.position" content="38.0772;46.2919">
+  <meta name="ICBM" content="38.0772, 46.2919">
+
   <!-- Dual-Scheme Theme Color for Mobile Browsers -->
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8fafc">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0f19">
@@ -55,7 +61,7 @@
   <!-- Deferred Modular JavaScript (Relative Path) -->
   <script src="js/main.js" defer></script>
 
-  <!-- JSON-LD Structured Data: Person, WebSite & FAQPage Schema -->
+  <!-- JSON-LD Structured Data: Person, ProfilePage, ItemList, Breadcrumbs & FAQ Schema (GEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -65,8 +71,10 @@
         "@id": "https://alirezakarimiyan.github.io/portfolio/#person",
         "name": "Alireza Karimiyan",
         "alternateName": "علیرضا کریمیان",
-        "jobTitle": "Full-Stack Developer & Project Manager",
-        "description": "Full-stack developer with 5 years of software engineering experience (Angular, C# .NET Core) and 4 years as a Project Manager leading enterprise and governmental software systems.",
+        "givenName": "Alireza",
+        "familyName": "Karimiyan",
+        "jobTitle": "Senior Full-Stack Developer & Software Project Manager",
+        "description": "Senior Full-Stack Developer with 5+ years of engineering experience (Angular, C# .NET Core, SQL Server) and 4 years of Project Management leadership in enterprise and national software initiatives.",
         "url": "https://alirezakarimiyan.github.io/portfolio/",
         "image": "https://alirezakarimiyan.github.io/portfolio/assets/profile.jpg?v=20261023",
         "sameAs": [
@@ -74,31 +82,100 @@
           "https://www.linkedin.com/in/alireza-karimiyan/",
           "https://t.me/silence_a_z"
         ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Tabriz",
+          "addressRegion": "East Azerbaijan",
+          "addressCountry": "IR"
+        },
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Tabriz, East Azerbaijan, Iran",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.0772,
+            "longitude": 46.2919
+          }
+        },
+        "workLocation": [
+          {
+            "@type": "Place",
+            "name": "Tabriz, Iran"
+          },
+          {
+            "@type": "Place",
+            "name": "Tehran, Iran"
+          },
+          {
+            "@type": "Place",
+            "name": "Remote (Worldwide)"
+          }
+        ],
+        "jobLocationType": "TELECOMMUTE",
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Iran"
+          },
+          {
+            "@type": "Place",
+            "name": "Worldwide (Remote)"
+          }
+        ],
         "alumniOf": {
           "@type": "CollegeOrUniversity",
           "name": "University of Tabriz",
-          "alternateName": "دانشگاه تبریز"
+          "alternateName": "دانشگاه تبریز",
+          "url": "https://tabrizu.ac.ir/en"
         },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "educationalLevel": "Master of Science (M.Sc.)",
+          "name": "M.Sc. in Software Engineering",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Tabriz"
+          }
+        },
+        "hasOccupation": [
+          {
+            "@type": "Occupation",
+            "name": "Senior Full-Stack Developer",
+            "occupationalCategory": "15-1254.00",
+            "skills": "C#, .NET Core, ASP.NET Core, Angular, TypeScript, SQL Server, Clean Architecture, CQRS, RESTful APIs, High Concurrency",
+            "responsibilities": "Architecting resilient distributed web applications, optimizing high-concurrency database workloads, and developing responsive frontends."
+          },
+          {
+            "@type": "Occupation",
+            "name": "Software Project Manager & Scrum Master",
+            "occupationalCategory": "11-3021.00",
+            "skills": "Agile Methodologies, Scrum, Sprint Planning, SDLC Lifecycle, Technical Risk Management, Jira",
+            "responsibilities": "Guiding cross-functional engineering squads, aligning business requirements with architectural execution, and safeguarding production deployments."
+          }
+        ],
         "knowsAbout": [
           "C#",
           ".NET Core",
+          "ASP.NET Core Web API",
           "Angular",
           "TypeScript",
-          "JavaScript",
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "Tailwind CSS",
+          "JavaScript (ES6+)",
           "SQL Server",
           "PostgreSQL",
           "SQLite",
-          "Microservices",
           "Clean Architecture",
-          "RESTful API",
-          "Python",
-          "Git",
-          "Scrum",
-          "Agile Project Management"
+          "CQRS",
+          "Microservices",
+          "RESTful APIs",
+          "High Concurrency",
+          "Database Indexing & Query Tuning",
+          "Stimulsoft Reports",
+          "Scrum & Agile Project Management",
+          "Git & GitHub",
+          "Software Design Patterns",
+          "RBAC Authorization",
+          "Python"
         ],
         "knowsLanguage": [
           {
@@ -114,6 +191,19 @@
         ]
       },
       {
+        "@type": "ProfilePage",
+        "@id": "https://alirezakarimiyan.github.io/portfolio/#profilepage",
+        "url": "https://alirezakarimiyan.github.io/portfolio/",
+        "name": "علیرضا کریمیان | پورتفولیو و رزومه فنی توسعه‌دهنده ارشد فول‌استک و مدیر پروژه",
+        "description": "پورتفولیو، رزومه تخصصی و سوابق مهندسی علیرضا کریمیان شامل پروژه‌های سازمانی کلان، معماری نرم‌افزار، استک فنی و راه‌های تماس.",
+        "isPartOf": {
+          "@id": "https://alirezakarimiyan.github.io/portfolio/#website"
+        },
+        "mainEntity": {
+          "@id": "https://alirezakarimiyan.github.io/portfolio/#person"
+        }
+      },
+      {
         "@type": "WebSite",
         "@id": "https://alirezakarimiyan.github.io/portfolio/#website",
         "name": "علیرضا کریمیان | پورتفولیو",
@@ -123,6 +213,128 @@
         "publisher": {
           "@id": "https://alirezakarimiyan.github.io/portfolio/#person"
         }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://alirezakarimiyan.github.io/portfolio/#projects",
+        "name": "پروژه‌های شاخص سازمانی و سامانه‌های ملی",
+        "description": "سامانه‌های نرم‌افزاری بزرگ‌مقیاس تحت قرارداد محرمانگی (NDA) طراحی و توسعه داده شده توسط علیرضا کریمیان",
+        "numberOfItems": 5,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "بخش آزمون پلتفرم مهارت‌آموزی فنی و حرفه‌ای",
+              "alternateName": "Vocational Technical Skills-Training Exam Platform",
+              "applicationCategory": "EducationalApplication",
+              "operatingSystem": "Web Browser / Enterprise Intranet",
+              "description": "سامانه برگزاری آزمون‌های آنلاین سراسری با هم‌روندی بالای ۵۰,۰۰۰ کاربر هم‌زمان، بدون افت کارایی و پایداری ۹۹.۹۸٪.",
+              "author": { "@id": "https://alirezakarimiyan.github.io/portfolio/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "سامانه مالی کشت و صنعت و دامپروری مغان",
+              "alternateName": "Moghan Agro-Industry Financial & Accounting System",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web Browser / Enterprise Intranet",
+              "description": "سامانه جامع حسابداری و بهای تمام‌شده با بیش از ۱۰۰,۰۰۰ سند مالی سالانه و ۴۰٪ تسریع در تهیه ترازنامه‌ها.",
+              "author": { "@id": "https://alirezakarimiyan.github.io/portfolio/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "سامانه انبارداری شرکت فرآورده‌های نفتی",
+              "alternateName": "Oil Products Distribution Warehouse Management System",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web Browser / Enterprise Intranet",
+              "description": "مدیریت مکانیزه ورود و خروج محموله‌های نفتی، زمان استعلام موجودی زیر ۳۰۰ میلی‌ثانیه و تطابق ۱۰۰٪ اسناد انبارداری.",
+              "author": { "@id": "https://alirezakarimiyan.github.io/portfolio/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "سامانه اداره استخدامی",
+              "alternateName": "Public Sector Employment Administration & Recruitment System",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web Browser / Enterprise Intranet",
+              "description": "گردش کار گزینش و ارزیابی چندمرحله‌ای متقاضیان استخدامی با امنیت مبتنی بر نقش (RBAC) و ۵۰٪ افزایش سرعت ارزیابی.",
+              "author": { "@id": "https://alirezakarimiyan.github.io/portfolio/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "سامانه آزمون طرح «تربیت ۵۰۰ مدیر جوان و کارآمد»",
+              "alternateName": "500 Young & Efficient Managers Nationwide Examination System",
+              "applicationCategory": "EducationalApplication",
+              "operatingSystem": "Web Browser / Enterprise Intranet",
+              "description": "سنجش شایستگی‌های مدیریتی کشور با ذخیره‌سازی خودکار پاسخ‌ها، ۱۰۰٪ پایداری بدون قطعی و صدور خودکار کارنامه فوری.",
+              "author": { "@id": "https://alirezakarimiyan.github.io/portfolio/#person" }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://alirezakarimiyan.github.io/portfolio/#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "صفحه اصلی",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#hero"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "درباره من",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#about"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "سوابق کاری",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#experience"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "مهارت‌های تخصصی",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#skills"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "پروژه‌های سازمانی",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#projects"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "پرسش‌های متداول",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#faq"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "تماس و همکاری",
+            "item": "https://alirezakarimiyan.github.io/portfolio/#contact"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
@@ -165,7 +377,7 @@
             "name": "نحوه همکاری و ارتباط کاری با شما به چه صورت است؟",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "آماده همکاری در پروژه‌های نرم‌افزاری بزرگ، موقعیت‌های شغلی تمام‌وقت یا مشاوره تخصصی در حوزه معماری و مدیریت فنی پروژه‌ها. سریع‌ترین روش‌های برقراری ارتباط، ارسال ایمیل به alirezakn2000@gmail.com و ارتباط در تلگرام از طریق شناسه @silence_a_z است."
+              "text": "آماده همکاری در پروژه‌های نرم‌افزاری بزرگ، موقعیت‌های شغلی تمام‌وقت، هیبرید، حضوری (تبریز و تهران) یا دورکاری (Remote) در سراسر ایران و بین‌المللی. سریع‌ترین روش‌های برقراری ارتباط، ارسال ایمیل به alirezakn2000@gmail.com و ارتباط در تلگرام از طریق شناسه @silence_a_z است."
             }
           }
         ]
@@ -277,6 +489,15 @@
             <span class="spec-chip">SQL Server</span>
             <span class="spec-chip">Clean Architecture</span>
             <span class="spec-chip">Scrum & Agile</span>
+          </div>
+
+          <div class="hero-geo-status" aria-label="موقعیت جغرافیایی و شیوه همکاری / Location & Availability">
+            <span class="geo-status-indicator">
+              <svg class="geo-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <span data-i18n="hero.location">مستقر در تبریز / تهران • در دسترس برای همکاری حضوری، هایبرید و دورکاری سراسر کشور / بین‌المللی</span>
+            </span>
           </div>
 
           <div class="hero-cta">
@@ -992,10 +1213,6 @@
         </div>
       </div>
     </section>
-          </details>
-        </div>
-      </div>
-    </section>
 
     <!-- ═════════════════════════════════════════════════════════════════════
          8. CONTACT SECTION
@@ -1010,26 +1227,39 @@
           </p>
 
           <div class="contact-actions">
-            <!-- REPLACE: Email address below -->
-            <a href="mailto:alirezakn2000@gmail.com" class="btn-email">
-              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-              <span>alirezakn2000@gmail.com</span>
-            </a>
+            <!-- Row 1: Direct Messaging Channels -->
+            <div class="contact-actions-row">
+              <a href="mailto:alirezakn2000@gmail.com" class="btn-email">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                <span>alirezakn2000@gmail.com</span>
+              </a>
 
-            <a href="https://t.me/silence_a_z" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
-              <span>Telegram (@silence_a_z)</span>
-            </a>
+              <a href="https://t.me/silence_a_z" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                <span>Telegram (@silence_a_z)</span>
+              </a>
+            </div>
 
-            <a href="https://github.com/AlirezaKarimiyan" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              <span>GitHub</span>
-            </a>
+            <!-- Row 2: Professional Networks -->
+            <div class="contact-actions-row">
+              <a href="https://github.com/AlirezaKarimiyan" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                <span>GitHub</span>
+              </a>
 
-            <a href="https://www.linkedin.com/in/alireza-karimiyan/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0-.02-3.28 1.64 1.64 0 0 0 .02 3.28m-1.4 9.74h2.8v-8.37h-2.8v8.37Z"/></svg>
-              <span>LinkedIn</span>
-            </a>
+              <a href="https://www.linkedin.com/in/alireza-karimiyan/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0-.02-3.28 1.64 1.64 0 0 0 .02 3.28m-1.4 9.74h2.8v-8.37h-2.8v8.37Z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Geolocation & Availability Badge (Contact) -->
+          <div class="contact-geo-info" aria-label="موقعیت جغرافیایی و شیوه همکاری">
+            <svg class="geo-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            <span data-i18n="contact.geo">مستقر در تبریز و تهران • همکاری حضوری، هایبرید و دورکاری (Remote) در سراسر کشور و بین‌المللی</span>
           </div>
         </div>
       </div>

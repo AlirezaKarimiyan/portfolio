@@ -25,6 +25,7 @@
       'hero.eyebrow': 'توسعه‌دهنده ارشد فول‌استک و سرپرست تیم‌های فنی',
       'hero.greeting': 'علیرضا کریمیان',
       'hero.tagline': 'معماری و توسعه سامانه‌های مقیاس‌پذیر سازمانی با C# .NET Core و Angular',
+      'hero.location': 'مستقر در تبریز / تهران • در دسترس برای همکاری حضوری، هایبرید و دورکاری سراسر کشور / بین‌المللی',
       'hero.bio': 'مهندس نرم‌افزار با ۵ سال تجربه در طراحی و پیاده‌سازی سامانه‌های بزرگ‌مقیاس، و ۴ سال سابقه هدایت فنی تیم‌های چابک (Scrum) در پروژه‌های دولتی و صنعتی. دانش‌آموخته کارشناسی ارشد مهندسی نرم‌افزار از دانشگاه تبریز با معدل ممتاز ۱۷.۲۷.',
       'hero.ctaProjects': 'مشاهده پروژه‌ها',
       'hero.ctaContact': 'تماس و همکاری',
@@ -132,6 +133,7 @@
       'contact.badge': 'همکاری و ارتباط',
       'contact.title': 'بیایید با هم در ارتباط باشیم',
       'contact.desc': 'اگر به دنبال همکاری در پروژه‌های نرم‌افزاری مقیاس‌پذیر، مدیریت فنی پروژه‌ها یا نیاز به مشاوره فنی دارید، بسیار خوشحال می‌شوم با من در تماس باشید.',
+      'contact.geo': 'مستقر در تبریز و تهران • همکاری حضوری، هایبرید و دورکاری (Remote) در سراسر کشور و بین‌المللی',
       'footer.rights': 'تمامی حقوق محفوظ است.'
     },
     en: {
@@ -148,6 +150,7 @@
       'hero.eyebrow': 'Senior Full-Stack Developer & Technical Lead',
       'hero.greeting': 'Alireza Karimiyan',
       'hero.tagline': 'Engineering Scalable Enterprise Systems with C# .NET Core & Angular',
+      'hero.location': 'Based in Tabriz / Tehran, Iran • Available for On-site, Hybrid & Remote Worldwide',
       'hero.bio': 'Software engineer with 5 years of experience architecting large-scale distributed systems and 4 years of Agile/Scrum technical leadership across high-impact public and enterprise sectors. M.Sc. in Software Engineering from the University of Tabriz (GPA 17.27/20).',
       'hero.ctaProjects': 'View Projects',
       'hero.ctaContact': 'Contact Me',
@@ -255,6 +258,7 @@
       'contact.badge': 'Get In Touch',
       'contact.title': "Let's Work Together",
       'contact.desc': 'Whether you have a challenging project in mind, need technical leadership, or want to discuss engineering opportunities, feel free to reach out.',
+      'contact.geo': 'Based in Tabriz & Tehran, Iran • Open to On-site, Hybrid & Remote Worldwide',
       'footer.rights': 'All rights reserved.'
     }
   };

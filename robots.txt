@@ -1,14 +1,19 @@
 # robots.txt for Alireza Karimiyan Portfolio
-# Allow all standard search engines and modern generative AI crawlers
+# Allow all standard search engines, local crawlers, and modern generative AI agents (GEO)
 
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
 
-# Generative AI & LLM Search Agents
+# Generative AI & LLM Search Crawlers (Generative Engine Optimization)
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
@@ -29,8 +34,17 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: MistralBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 User-agent: Bytespider
 Allow: /
 
-# Sitemap Location (REPLACE WITH REAL DOMAIN)
+# Sitemap Location
 Sitemap: https://alirezakarimiyan.github.io/portfolio/sitemap.xml

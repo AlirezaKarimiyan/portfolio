@@ -22,31 +22,41 @@
 - Database & Reporting: Microsoft SQL Server, PostgreSQL, SQLite, T-SQL, Relational Schema Design, Query Optimization, Index Tuning, Stimulsoft Reports.
 - Tools & Methodology: Git, Scrum Master, Agile Methodologies, Sprint Planning, SDLC Lifecycle, Technical Risk Management, Jira/Git workflows.
 
-## Key Enterprise Projects
+## Key Enterprise Projects (Under NDA / Enterprise Intranet)
 1. Skills-Training Exam Platform (بخش آزمون پلتفرم مهارت‌آموزی فنی و حرفه‌ای)
-   - Role: Project Manager
-   - Details: Led the architectural design and full delivery of the high-concurrency online examination module for the National Technical and Vocational Skills-Training Platform.
-   - Technologies: Angular, .NET Core, SQL Server, Clean Architecture, Scrum.
+   - Role: Technical Project Manager & Scrum Lead
+   - Challenge: Managing sudden severe traffic surges with tens of thousands of simultaneous test-takers while guaranteeing zero data loss or race conditions in answer submissions.
+   - Solution & Architecture: Engineered a distributed architecture using C# .NET Core and Angular with layered in-memory caching and asynchronous queue processing.
+   - Key Metrics & Impact: Successfully sustained 50,000+ concurrent examinees with 99.98% uptime and zero submission loss nationwide.
+   - Technologies: Angular, C# .NET Core, SQL Server, Clean Architecture, Scrum, High Concurrency.
 
 2. Moghan Agro-Industry Comprehensive Financial System (سامانه مالی کشت و صنعت و دامپروری مغان)
-   - Role: Project Manager
-   - Details: Managed end-to-end development of the integrated financial and accounting system for Moghan Agro-Industry & Livestock Co., one of the country's largest agro-industrial complexes.
+   - Role: Technical Project Manager & Software Architect
+   - Challenge: Consolidating financial and cost-accounting workflows across multiple massive agro-industrial divisions with audit-proof tracking.
+   - Solution & Architecture: Implemented Domain-Centric Clean Architecture in .NET Core, highly indexed SQL Server schemas, and Stimulsoft reporting pipelines.
+   - Key Metrics & Impact: Reduced month-end reporting time by 40% and reliably processed 100,000+ annual financial transactions.
    - Technologies: .NET Core, Angular, SQL Server, Stimulsoft Reports, Financial Modules.
 
 3. Warehouse Management System — Oil Products Distribution Co. (سامانه انبارداری شرکت فرآورده‌های نفتی)
-   - Role: Full-Stack Developer
-   - Details: Engineered inventory tracking, material movement, automated stock auditing, and reporting modules for an oil products distribution enterprise.
-   - Technologies: C#, .NET Core, SQL Server, RESTful API, Stimulsoft Reports.
+   - Role: Senior Full-Stack Developer
+   - Challenge: Zero tolerance for inventory discrepancies in bulk fuel depots with sub-second response times on massive transactional ledgers.
+   - Solution & Architecture: Implemented high-throughput C# .NET Core Web APIs, fine-tuned SQL Server execution plans, and parameterized reporting pipelines.
+   - Key Metrics & Impact: Sub-300ms query retrieval on complex stock queries and 100% audit-reconciled stock movements.
+   - Technologies: C#, .NET Core, SQL Server, RESTful API, Stimulsoft Reports, Inventory Ledger.
 
 4. Employment Administration System (سامانه اداره استخدامی)
-   - Role: Full-Stack Developer
-   - Details: Developed core modules, administrative workflows, and sensitive applicant screening pipelines for a governmental recruitment authority.
-   - Technologies: Angular, TypeScript, C# .NET, SQL Server.
+   - Role: Senior Full-Stack Developer
+   - Challenge: Maintaining strict confidentiality of applicant records, complex evaluation rubrics, and a snappy applicant management UX.
+   - Solution & Architecture: Developed dynamic Angular and TypeScript components with strict RBAC authorization and hardened .NET backend services.
+   - Key Metrics & Impact: Accelerated applicant evaluation turnaround by 50% across departmental recruitment committees.
+   - Technologies: Angular, TypeScript, C# .NET, SQL Server, RBAC Security.
 
 5. "Training 500 Young & Efficient Managers" Examination System (آزمون طرح تربیت ۵۰۰ مدیر جوان و کارآمد)
-   - Role: Project Manager
-   - Details: Managed the nationwide large-scale online examination process, high-concurrency test taking, score analysis, and competency assessment.
-   - Technologies: Project Management, Angular, .NET Core, SQL Server, High Concurrency.
+   - Role: Project Manager & Operations Lead
+   - Challenge: High-stakes executive selection requiring fail-safe session persistence, uninterrupted connectivity resilience, and instant grading.
+   - Solution & Architecture: Led technical sprints, pre-flight load stress simulations, client-side auto-save synchronization, and live session monitoring.
+   - Key Metrics & Impact: Flawless test delivery with 100% zero-downtime delivery and instant automated psychometric and technical score generation upon test completion.
+   - Technologies: Project Management, Angular, .NET Core, SQL Server, High Concurrency, Scrum.
 
 ## Professional Experience
 - Project Manager (4 Years):
